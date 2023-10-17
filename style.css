@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   font-family: 'Bungee Spice', cursive; 
+   background-color: black;
+}
+nav{
+    background-color: black;
+        display: flex;
+    justify-content: center;
+    width: 100%;
+    height:50px;
+    position: sticky;
+    top: 0%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    justify-content: space-evenly;
+    margin: 30px;
+    
+}
+nav ul li a{
+   text-decoration: none;
+}
+.h{
+    background-image:url(https://wallpapers.com/images/hd/side-profile-jeff-bezos-00an79ax7b0a5mp6.jpg);
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#n {
+    position: absolute;
+     margin-top: 200px;
+}
+#j{
+    position: absolute;
+    margin-top:250px;
+}
+.o{
+text-align: center;
+
+color: rgb(184, 28, 28);
+}
+
+ p{
+    text-align: justify;
+    margin: 30px;
+    font-family: 'DM Serif Display', serif;
+    color: aliceblue;
+}
+h4{
+    text-align: center;
+    color: aquamarine;
+}
+h4:hover{
+    color: rgb(159, 221, 15);
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom:10px;
+}
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px rgb(4, 221, 40);
+}
+.rg{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(41, 41, 46);
+    text-align: center;
+    
+}
+iframe{
+    margin-top: 100px;
+}
+
